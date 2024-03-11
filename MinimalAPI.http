@@ -1,0 +1,16 @@
+@MinimalAPI_HostAddress = https://localhost:7273
+
+
+GET {{MinimalAPI_HostAddress}}/person/5
+
+###
+
+POST {{MinimalAPI_HostAddress}}/person
+Content-Type: application/json
+
+{
+  "id": 0,
+  "firstName": "Mary",
+  "lastName": "Smith"
+}
+###
